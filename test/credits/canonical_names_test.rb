@@ -2038,15 +2038,21 @@ module Credits
     test "jean.helou\100gmail.com" do
       assert_contributor_names 'a3659d5', 'Jean Helou'
     end
-    
+
     test "Jean-Francois Labbé" do
       assert_contributor_names '90d5a5c2ab', 'Jean-François Labbé'
     end
-    
+
     test "jean-francois labbe" do
       assert_contributor_names '34916855ca', 'Jean-François Labbé'
+      assert_contributor_names '3ccc305416', 'Jean-François Labbé'
+      assert_contributor_names '7d1981d20e', 'Jean-François Labbé'
+      assert_contributor_names '4348c38b84', 'Jean-François Labbé'
+      assert_contributor_names 'a24467893e', 'Jean-François Labbé'
+      assert_contributor_names 'f00151ab78', 'Jean-François Labbé'
+      assert_contributor_names 'bc4e77a940', 'Jean-François Labbé'
     end
-    
+
     test 'jeanmartin' do
       assert_contributor_names 'c48f744', 'Jan Schwenzien'
     end
